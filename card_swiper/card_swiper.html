@@ -1,42 +1,182 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="card_swiper.css"/>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="card_swiper.css" />
     <title>Swiper</title>
 </head>
+
 <body>
-    
-    <!-- Swiper -->
-    <div class="swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image: url(img/avatar01.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar02.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar03.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar04.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar05.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar06.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar07.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar08.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar09.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar10.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar11.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar12.png);"></div>
-            <div class="swiper-slide" style="background-image: url(img/avatar13.png);"></div>
+    <div class="container">
+        <div class="gifs">
+            <img class="gif" src="https://f.hellowork.com/blogdumoderateur/2013/02/nyan-cat-gif-1.gif"/>
+            <img class="gif" src="https://media.tenor.com/dnc1gR83UQgAAAAM/hello-bonjour.gif"/>
         </div>
 
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+        <h1>Prénom Nom</h1>
+        <p class="detail">
+            <span id="first">age</span>
+            <span>maison</span>
+            <span>année</span>
+            <span>filière</span>
+            <span>métier</span>
+            <span>état civil</span>
+            <span>nature du sang</span>
+        </p>
 
-        <!-- add navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <!-- Swiper -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(img/avatar01.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar02.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar03.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar04.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar05.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar06.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar07.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar08.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar09.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar10.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar11.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar12.png);">
+                    <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(img/avatar13.png);">
+                <div class="link_description">
+                        <p class="name">Prénom Nom</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- add navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
     </div>
-    
+
     <script src="card_swiper.js"></script>
 </body>
+
 </html>
