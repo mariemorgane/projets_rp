@@ -1,0 +1,21 @@
+body {
+    background: #ddd;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #fc0;
+}
+
+.swiper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 500px;
+    height: 400px;
+}
+
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+}
