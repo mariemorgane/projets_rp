@@ -2,14 +2,14 @@
     --police_sst: 'dancing script', cursive, bold;
     --police_txt: 'Calibri', 'Verdana', 'Arial', 'Helvetica', sans-serif;
     --color_text: #333;
-    --color_title: #226d82;
-    --color_link: #A5596D;
-    --color_background1: #8F828E;
-    --color_background2: #3B2339;
-    --color_background3: #C7C0C7;
-    --color_background4: #E3E0E3;
-    --color_background5: #F9F8F9;
-    --fond_pa: url(https://2img.net/r/ihimizer/img923/3123/5CufJ0.jpg);
+    --color_title: #ba4e06;
+    --color_link: #e36c35;
+    --color_background1: #ffe4b2;
+    --color_background2: #ff8f00;
+    --color_background3: #FFEECF;
+    --color_background4: #FFF8EC;
+    --color_background5: #fff;
+    --fond_pa: url(https://hungcalf.github.io/ressources/current_design/background.png);
 
     --swiper-theme-color: var(--color_link);
     --swiper-pagination-bullet-inactive-color: var(--color_link);
