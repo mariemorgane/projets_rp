@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+</head>
+
+<style> 
+    body {
+        background-color: #FFF8EC;
+        font-size:12px;
+    }
+
+    .sev {
+        text-align:center; 
+        display:block; 
+        letter-spacing:5px; 
+        font-size:8px; 
+    } 
+
+    .sev_template_01 {
+        width: 525px;
+        margin:0 auto;
+        padding:50px;
+        background-color:#fff;
+        font-family:Verdana;
+        border:#E0E0E0 1px solid;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .sev_template_01 img {
+        width:100%;
+        height:250px;
+        object-fit:cover;
+        border-radius: 10px;
+    }
+
+    .sev_template_01 .h1 {
+        font-family: 'Dosis', sans-serif;
+        color:#7E7E7E;
+        background-color: #ffffff;
+        opacity: 0.75;
+        font-size:26px;
+        display: block;
+        position: relative;
+        top:-125px;
+        width:100%;
+        padding: 2px 0;
+        text-transform:uppercase;
+        text-align:center;
+    }
+
+    .sev_template_01 .available {
+        font-family: 'Dosis', sans-serif;
+        color:#7E7E7E;
+        font-size:16px;
+        display: block;
+        position: relative;
+        margin-top:-30px;
+        margin-bottom: 10px;
+        right:0;
+        text-align:center;
+    }
+
+    chronolegende { 
+        padding-top:10px; 
+        font-family: 'Dosis', serif; 
+        display:flex;
+        justify-content:space-evenly;
+        font-size: 12px;
+    }
+
+    chronolegende span { 
+        padding-left:20px; 
+        position:relative; 
+    }
+    
+    .abandon:before,
+    .encours:before,
+    .fini:before { 
+        background:#000; 
+        content:' '; 
+        width:15px; 
+        height:15px; 
+        position:absolute;
+        top:0;
+        left:0; 
+        border-radius:50%; 
+    }
+
+    .abandon:before {
+        background:#D5D5D5;; 
+    }
+
+    .encours:before { 
+        background:#FAE382; 
+    }
+
+    .fini:before { 
+        background:#8FB870; 
+    }
+
+    .sev_template_01 .h2 {
+        font-family: 'Dosis', sans-serif;
+        color:#7E7E7E;
+        font-size:20px;
+        display: block;
+        position: relative;
+        right:0;
+        text-align:right;
+        margin:0;
+        width:100%;
+    }
+
+    .sev_template_01 div {
+        width:100%;
+        padding:10px 20px 20px 20px;
+        border:#E0E0E0 1px solid;
+        border-radius: 5px;
+        box-sizing: border-box;
+        text-align: justify;
+    } 
+
+    .sev_template_01 a, 
+    .sev_template_01 a:hover, 
+    .sev_template_01 a:visited, 
+    .sev_template_01 a:link { 
+        color:#888; 
+        text-decoration:none;
+        padding-left:20px; 
+        position:relative; 
+        line-height: 25px;
+    }
+</style> 
+
+<body>
+    <div class="sev_template_01">
+        <img src="https://imagizer.imageshack.com/img922/9709/1s6Ogq.gif">
+        <span class="h1">Année 2023</span>
+        <span class="available">Disponibilité (3/3)
+            <chronolegende>
+                <span class="abandon">RP abandonné</span>
+                <span class="encours">RP en cours</span>
+                <span class="fini">RP terminé</span>
+            </chronolegende>
+        </span>
+        <div>
+            <span class="h2">juillet 2023</span>
+            <a href="" class="fini">Titre</a> | feat. X<br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+            <a href="" class="encours">Titre</a> | feat. X<br>
+            <a href="" class="abandon">Titre</a> | feat. X<br>
+        </div><br>
+        <div>
+            <span class="h2">aout 2023</span>
+            <a href="" class="fini">Titre</a> | feat. X<br>
+            <a href="" class="encours">Titre</a> | feat. X<br>
+        </div><br>
+        <div>
+            <span class="h2">septembre 2023</span>
+            <a href="" class="encours">Titre</a> | feat. X<br>
+        </div>
+    </div><br>
+    <span class="sev">© Sev</span>
+</body>
