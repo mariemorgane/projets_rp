@@ -28,7 +28,7 @@
         box-sizing: border-box;
     }
 
-    .sev_template_01 img {
+    .sev_template_01 > img {
         width:100%;
         height:250px;
         object-fit:cover;
@@ -54,11 +54,40 @@
         color:#7E7E7E;
         font-size:20px;
         display: block;
+        margin:0;
+        width:100%;
+    }
+
+    .right {
         position: relative;
         right:0;
         text-align:right;
-        margin:0;
-        width:100%;
+    }
+    
+    .left{
+        position: relative;
+        left: 0;
+        text-align: left;
+    }
+
+    sev_link {
+        display: flex;
+        gap: 10px;
+    }
+
+    sev_link img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    sev_link div {
+        height: 100px;
+        overflow: auto;
+    }
+
+    sev_link div::-webkit-scrollbar {
+        display: none;
     }
 
     .sev_template_01 div {
@@ -66,6 +95,7 @@
         padding:10px 20px 20px 20px;
         border:#e36c35 2px dotted;
         box-sizing: border-box;
+        text-align: justify;
     } 
 
     .sev_template_01 a, 
@@ -75,6 +105,29 @@
         color:#888; 
         text-decoration:none;
     }
+
+    .detail {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 500px;
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .detail span {
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: 2px;
+        margin-bottom: 3px;
+        padding-left: 5px;
+    }
+
+    separator {
+        border-left: #e36c35 1px solid;
+    }
+
 </style> 
 
 <body>
@@ -82,19 +135,49 @@
         <img src="https://imagizer.imageshack.com/img922/9709/1s6Ogq.gif">
         <span class="h1">Prenom Nom</span>
         <div>
-            <span class="h2">Rps en cours (3/3)</span>
-            ▬ <a href="">Titre</a> | feat. X<br>
-            ▬ <a href="">Titre</a> | feat. X<br>
-            ▬ <a href="">Titre</a> | feat. X<br>
+            <span class="h2 right">Résumé</span>
+                <p class="detail">
+                    <span>âge</span>
+                    <separator></separator>
+                    <span>maison</span>
+                    <separator></separator>
+                    <span>année</span>
+                    <separator></separator>
+                    <span>cursus</span>
+                    <separator></separator>
+                    <span>métier</span>
+                    <span>situation</span>
+                    <separator></separator>
+                    <span>nature du sang</span>
+                </p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div><br>
         <div>
-            <span class="h2">Rps finis</span>
-            ▬ <a href="">Titre</a> | feat. X<br>
-        </div><br>
-        <div>
-            <span class="h2">Rps en pause & abandonnés</span>
-            ▬ <a href="">Titre</a> | feat. X<br>
+            <span class="h2 right">Liens recherchés</span>
+            ▬ Type de lien<br>
+            ▬ Type de lien<br>
+            ▬ Type de lien<br>
         </div>
+    </div><br>
+    <span class="sev">© Sev</span>
+    <br>
+    <div class="sev_template_01">
+        <img src="https://imagizer.imageshack.com/img922/9709/1s6Ogq.gif">
+        <span class="h1">famille</span>
+        <sev_link>
+            <img src="https://imagizer.imageshack.com/img923/2186/m9K9dG.png">
+            <div>
+                <span class="h2 left">Prénom Nom</span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </sev_link><br>
+        <sev_link>
+            <div>
+                <span class="h2 right">Prénom Nom</span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <img src="https://imagizer.imageshack.com/img922/7239/8qet5A.jpg">
+        </sev_link>
     </div><br>
     <span class="sev">© Sev</span>
 </body>
