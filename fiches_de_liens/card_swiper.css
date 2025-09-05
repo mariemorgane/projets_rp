@@ -1,5 +1,5 @@
 :root {
-    --police_sst: 'dancing script', cursive, bold;
+    /* --police_sst: 'dancing script', cursive, bold;
     --police_txt: 'Calibri', 'Verdana', 'Arial', 'Helvetica', sans-serif;
     --color_text: #333;
     --color_title: #ba4e06;
@@ -9,10 +9,10 @@
     --color_background3: #81a7bb;
     --color_background4: #206bb9;
     --color_background5: #fff;
-    --fond_pa: url(https://hungcalf.github.io/ressources/current_design/background.png);
+    --fond_pa: url(https://hungcalf.github.io/ressources/current_design/background.png); */
 
-    --swiper-theme-color: var(--color_link);
-    --swiper-pagination-bullet-inactive-color: var(--color_link);
+    --swiper-theme-color: var(--color_background4);
+    --swiper-pagination-bullet-inactive-color: var(--color_background4);
 }
 
 * {
@@ -20,38 +20,41 @@
 }
 
 body {
-    background: var(--color_background5);
-    font-family: var(--police_txt);
-    font-size: 12px;
-    color: var(--color_text);
+    background: var(--color_background2);
+    /* font-family: var(--police_txt); */
+    /* font-size: 12px; */
+    /* color: var(--color_text); */
     width: 500px;
-    text-align: center;
+    /* text-align: center; */
+    /* margin: 0; */
+}
+
+.backfiche {
     margin: 0;
 }
 
 ::-webkit-scrollbar {
     width: 5px;
-    background: var(--color_background4);
+    background: var(--color_background2);
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--color_background4);
+    background: var(--color_background2);
 }
 
 ::-webkit-scrollbar-thumb {
     box-sizing: border-box;
-    background: var(--color_link);
+    background: var(--color_background3);
 }
 
-.container {
+/* .container {
     border: 1px solid var(--color_background2);
     border-radius: 10px;
     padding-top: 5px;
     background-color: var(--color_background3);
-}
+} */
 
-.gifs, 
-.detail {
+.swiper-gifs {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -60,12 +63,12 @@ body {
     gap: 5px;
 }
 
-.gif {
+.swiper-gif {
     height: 150px;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
-h1 {
+/* h1 {
     margin: 5px 5px 0 5px;
     font-family: var(--police_sst);
     font-size: 25px;
@@ -73,9 +76,9 @@ h1 {
     color: var(--color_link);
     border-bottom: 1px solid var(--color_link);
     background-color: var(--color_background4);
-}
+} */
 
-h2 {
+/* h2 {
     text-transform: uppercase;
     font-size: 10px;
     letter-spacing: 2px;
@@ -85,25 +88,25 @@ h2 {
     font-style: italic;
     color: var(--color_title);
     background-color: var(--color_background4);
-}
+} */
 
-.detail span {
+/* .detail span {
     text-transform: uppercase;
     font-size: 10px;
     letter-spacing: 2px;
     border-left: 1px solid var(--color_link);
     margin-bottom: 3px;
     padding-left: 5px;
-}
+} */
 
-#first {
+/* #first {
     border: none;
-}
+} */
 
 .swiper {
     padding-top: 20px;
     padding-bottom: 30px;
-    width: 500px;
+    width: 457px;
     height: 470px;
 }
 
@@ -113,39 +116,41 @@ h2 {
     height: 400px;
     width: 300px;
     border-radius: 25px;
-    background-color: var(--color_background3);
+    background-color: var(--color_background2);
     background-image: var(--fond_pa);
 }
 
-.swiper-slide:hover .link_description {
+.swiper-slide:hover .swiper-link_description {
     height: 100px;
     bottom: 0;
 }
 
-p {
+/* p {
     margin: 0;
-}
+} */
 
 .swiper-pagination {
     margin-bottom: 20px;
 }
 
-.name {
+.swiper-name {
     text-transform: uppercase;
     font-size: 11px;
     letter-spacing: 2px;
-    border-bottom: 1px solid var(--color_link);
+    border-bottom: 1px solid var(--color_background3);
     margin-bottom: 3px;
 }
 
-.link_description {
+.swiper-link_description {
     position: absolute;
     bottom: -30px;
     height: 0px;
     width: 300px;
-    background-color: var(--color_background4);
+    background-color: var(--color_background2);
+    opacity: 0.85;
     padding: 5px 10px 15px 10px;
     overflow: auto;
     transition: 0.7s;
     text-align: justify;
+    color: var(--color_neg);
 }
