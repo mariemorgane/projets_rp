@@ -4,11 +4,11 @@
     --color_text: #333;
     --color_title: #ba4e06;
     --color_link: #e36c35;
-    --color_background1: rgba(0,0,0,0.5);
+    --color_background1: rgba(0,0,0,0);
     --color_background2: #ff8f00;
-    --color_background3: #FFEECF;
+    --color_background3: rgba(0,0,0,0);
     --color_background4: #FFF8EC;
-    --color_background5: rgba(0,0,0,0.5);
+    --color_background5: rgba(0,0,0,0);
     --fond_pa: url(https://hungcalf.github.io/ressources/current_design/background.png);
 
     --swiper-theme-color: var(--color_link);
