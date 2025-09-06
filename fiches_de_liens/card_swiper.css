@@ -1,16 +1,4 @@
 :root {
-    /* --police_sst: 'dancing script', cursive, bold;
-    --police_txt: 'Calibri', 'Verdana', 'Arial', 'Helvetica', sans-serif;
-    --color_text: #333;
-    --color_title: #ba4e06;
-    --color_link: #e36c35;
-    --color_background1: #7195a8;
-    --color_background2: #f0f0f0;
-    --color_background3: #81a7bb;
-    --color_background4: #206bb9;
-    --color_background5: #fff;
-    --fond_pa: url(https://hungcalf.github.io/ressources/current_design/background.png); */
-
     --swiper-theme-color: var(--color_background4);
     --swiper-pagination-bullet-inactive-color: var(--color_background4);
 }
@@ -21,12 +9,9 @@
 
 body {
     background: var(--color_background2);
-    /* font-family: var(--police_txt); */
-    /* font-size: 12px; */
-    /* color: var(--color_text); */
     width: 525px;
-    /* text-align: center; */
     margin: 0 !important;
+    font-size: 14px;
 }
 
 .backfiche {
