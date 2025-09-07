@@ -1,10 +1,51 @@
-:root {
-
-}
-
 body {
     background: var(--color_background2);
     margin: 0 !important;
+}
+
+.fergus1 {
+    flex-direction:column;
+    justify-content:space-between;
+    width: 310px;
+}
+
+.fergus1, 
+.fergus2 {
+    display:flex;
+}
+
+.fergus3 {
+    background:var(--color_background1);
+    height:2px;
+    width:129px;
+    /* margin-top:3px; */
+    /* margin-left:105px; */
+}
+
+.fergus4 {
+    color:var(--color_neg);
+    text-transform:uppercase;
+    font-size:9px;
+    letter-spacing:1px;
+    text-align:justify;
+    width:176px;
+    margin:-2px 0 0 5px;
+    line-height:13px;
+    font-family: nunito;
+}
+
+.fergus5 {
+    opacity:0.5
+}
+
+.fergus6 {
+    color:var(--color_background3)
+}
+
+.fergusimg1 {
+    width:100px;
+    margin-right:4px;
+    border-radius:4px;
 }
 
 .ioli1 {
