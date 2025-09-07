@@ -7,11 +7,17 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 800px) {
+    html {
+        font-size: 14px;
+    }
+}
+
 body {
     background: var(--color_background2);
     width: 525px;
     margin: 0 !important;
-    font-size: 14px !important;
+    /* font-size: 14px !important; */
 }
 
 .backfiche {
