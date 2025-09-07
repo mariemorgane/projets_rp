@@ -1,0 +1,64 @@
+:root {
+    
+}
+
+body {
+    background: var(--color_background2);
+    margin: 0 !important;
+}
+
+.ioli1 {
+    width: 196px;
+    height: 154px;
+    display: block;
+}
+
+.ioli2 {
+    height: 77px;
+    border-bottom: 1px solid var(--color_background3);
+    padding: 0 0 5px 0;
+    margin-top: -8px;
+}
+
+.ioli3 {
+    font-family: 'Spectral', serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--color_neg);
+    padding: 0 2px;
+    opacity: 0.6;
+}
+
+.ioli3 span {
+    text-decoration: underline;
+}
+
+.imgioli1 {
+    width: 34px;
+    margin: 0 0 0 81px;
+    filter: grayscale(100%);
+}
+
+.imgioli2 {
+    width: 58px;
+    height: 57px;
+    margin-top: 13px;
+}
+
+.imgioli3 {
+    width: 72px;
+    height: 72px;
+    margin: 0 4px;
+}
+
+.imgioli2,
+.imgioli3 {
+    background-color: color-mix(in srgb, var(--color_background3) 50%, transparent);
+    border-radius: 50px;
+    object-fit: cover;
+    float: left;
+    border: 1px solid var(--color_background3);
+    padding: 4px;
+}
